@@ -1,0 +1,9 @@
+Package: hdf5r
+Version: 0.0.0-9000
+Title: Fake, Dummy, Non-Working 'hdf5r' Package for 'Seurat' Users
+Description: A non-working packages that users of 'Seurat' (https://cran.r-project.org/package=Seurat) can install if they fail to install the real 'hdf5r' package (https://cran.r-project.org/package=hdf5r), e.g. if the system library hdf5 (>= 1.8.12) is not available.  By installing this fake 'hdf5r' package, the Seurat::Read10X_h5() function used for reading 10X HDF5 files will not work.
+Authors@R: c(
+   person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+          email = "henrikb@braju.com"))
+License: GPL (>= 3)
+RoxygenNote: 6.0.1
